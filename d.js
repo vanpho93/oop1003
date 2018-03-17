@@ -16,5 +16,16 @@ class Point {
     }
 }
 
+class Line {
+    constructor(pointA, pointB) {
+        this.pointA = pointA;
+        this.pointB = pointB;
+    }
+
+    getLength() {
+        
+    }
+}
+
 const p1 = new Point(1, 1);
 console.log(p1.getDistance());
